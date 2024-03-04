@@ -84,14 +84,14 @@ p{
 @media screen and (min-width:800px) {
 
     display: grid;
-    grid-template-columns: repeat(3, 22vw);
+    grid-template-columns: repeat(3, 20vw);
     column-gap:2rem;
 
     .item{
-      width: 22vw;
+      width: 20vw;
     }
     .img{
-      width: 22vw;
+      width: 20vw;
     }
   
 }
