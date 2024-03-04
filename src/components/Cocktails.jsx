@@ -84,25 +84,19 @@ p{
 @media screen and (min-width:800px) {
 
     display: grid;
-    grid-template-columns: repeat(3, 20rem);
+    grid-template-columns: repeat(3, 25vw);
     column-gap:2rem;
 
     .item{
-      width: 20rem;
+      width: 25vw;
     }
     .img{
-      width: 20rem;
+      width: 25vw;
     }
   
 }
 
-@media screen and (min-width:992px) {
 
-    display: grid;
-    grid-template-columns: repeat(4, 20rem);
-    column-gap:2rem;
-  
-}
 `
 
 export default Cocktails;
