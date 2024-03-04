@@ -27,7 +27,7 @@ const Contact = () => {
   )
 }
 const Wrapper = styled.div`
- width: 85%;
+ width: 75%;
   display: flex;
   flex-direction: column;
   margin-left:1rem;
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
   font-size:0.65rem;
 
   form{
-    width: 80vw;
+    width: 70vw;
     height: 20rem;
      display: flex;
     flex-direction: column;
