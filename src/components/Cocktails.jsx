@@ -84,15 +84,15 @@ p{
 @media screen and (min-width:992px) {
 
     display: grid;
-    grid-template-columns: repeat(3, 25rem);
+    grid-template-columns: repeat(3, 20rem);
     column-gap:2rem;
-    margin-left:15vw;
+    margin-left:20vw;
 
     .item{
-      width: 25rem;
+      width: 20rem;
     }
     .img{
-      width: 25rem;
+      width: 20rem;
     }
   
 }
