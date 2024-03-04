@@ -79,7 +79,7 @@ const Cocktail = () => {
 }
 
 const Wrapper = styled.div`
-  margin-top:-8rem;
+  margin-top:2rem;
   .header{
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ p{
   width:30rem;
 }
 img{
-  width: 22rem;
+  width: 20rem;
   margin-bottom:1rem;
 }
 

@@ -13,6 +13,9 @@ body {
 
 .landing {
   margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cocktails {
@@ -20,6 +23,8 @@ body {
   flex-direction: column;
   margin-left: 3rem;
   margin-top: 5rem;
+  width: 70vw;
+
 }
 
 .loader {
