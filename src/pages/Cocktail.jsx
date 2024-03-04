@@ -90,7 +90,7 @@ const Wrapper = styled.div`
 .cocktail{
   display: flex;
 flex-direction:column;
-margin-left:4rem;
+margin-left:2.5rem;
 }
 .home-btn {
  display: flex;
