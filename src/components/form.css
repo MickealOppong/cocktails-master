@@ -1,0 +1,50 @@
+.form-container {
+  width: 70vw;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 1.8rem;
+  background-color: white;
+}
+
+form {
+  width: 70vw;
+  height: 2rem;
+  display: flex;
+}
+
+.input {
+  width: 65vw;
+  text-indent: 10px;
+  border: 0.1px groove gray;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.search-btn {
+  background-color: #d0944d;
+  border-color: transparent;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width:992px) {
+  .form-container {
+    width: 40vw;
+    margin-left: 30vw;
+  }
+
+  form {
+    width: 50vw;
+  }
+
+  .input {
+    width: 35vw;
+  }
+
+}

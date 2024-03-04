@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(200, 195, 195, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.landing {
+  margin-top: 8rem;
+}
+
+.cocktails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+.loader {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 10rem;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width:992px) {
+
+  .loader {
+    margin-left: 40vw;
+  }
+
+}
