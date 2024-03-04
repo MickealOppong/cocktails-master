@@ -116,13 +116,15 @@ span{
   width: auto;
   padding:0.2rem;
   background-color:#d0944d;
-  color:#fff;
+  color:green;
   text-transform:capitalize;
   margin-right:0.5rem;
+  letter-spacing:1px
 }
 
 
 p{
+  font-weight:700;
  color: rgb(73, 81, 81);
  line-height:1.5rem;
   width:22rem;
@@ -145,6 +147,11 @@ img{
   p{
    line-height: 1.5rem;
   }
+
+  img{
+  height: 25rem;
+  margin-bottom:1rem;
+}
 }
 `
 export default Cocktail;
