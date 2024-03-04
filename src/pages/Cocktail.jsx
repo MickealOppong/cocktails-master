@@ -129,7 +129,7 @@ p{
   width:25rem;
 }
 img{
-  width: 25rem;
+  width: 20rem;
   margin-bottom:1rem;
 }
 
