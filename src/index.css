@@ -12,6 +12,12 @@ body {
   background-image: linear-gradient(rgba(200, 195, 195, 0.1), rgba(0, 0, 0, 0.1));
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+
+}
+
 .landing {
   margin-top: 8rem;
   display: flex;
@@ -25,7 +31,7 @@ body {
   margin-left: 3rem;
   margin-top: 5rem;
   width: 70vw;
-
+  margin-left: 15vw;
 }
 
 

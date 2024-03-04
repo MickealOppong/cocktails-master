@@ -86,7 +86,6 @@ p{
     display: grid;
     grid-template-columns: repeat(3, 20rem);
     column-gap:2rem;
-    margin-left:20vw;
 
     .item{
       width: 20rem;

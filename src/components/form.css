@@ -35,16 +35,16 @@ form {
 
 @media screen and (min-width:992px) {
   .form-container {
-    width: 40vw;
+    width: 30vw;
     margin-left: 35vw;
   }
 
   form {
-    width: 50vw;
+    width: 30vw;
   }
 
   .input {
-    width: 35vw;
+    width: 25vw;
   }
 
 }
