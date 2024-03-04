@@ -81,7 +81,7 @@ p{
   cursor: pointer;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:800px) {
 
     display: grid;
     grid-template-columns: repeat(3, 20rem);
