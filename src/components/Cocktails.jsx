@@ -44,6 +44,10 @@ const Wrapper = styled.div`
   row-gap: 2rem;
   margin-bottom:4rem;
 
+  h4{
+    font-size:2rem;
+    margin-top:0rem;
+  }
 p{
   margin-top:-0.5rem;
 }
@@ -84,14 +88,14 @@ p{
 @media screen and (min-width:800px) {
 
     display: grid;
-    grid-template-columns: repeat(3, 20vw);
+    grid-template-columns: repeat(3, 22vw);
     column-gap:2rem;
 
     .item{
-      width: 20vw;
+      width: 22vw;
     }
     .img{
-      width: 20vw;
+      width: 22vw;
     }
   
 }
