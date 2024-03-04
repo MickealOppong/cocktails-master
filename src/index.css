@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  width: 100vw;
   background-image: linear-gradient(rgba(200, 195, 195, 0.1), rgba(0, 0, 0, 0.1));
 }
 
