@@ -1,6 +1,6 @@
 .form-container {
-  width: 70vw;
-  margin-left: 4rem;
+  width: 60vw;
+  margin-left: 3rem;
   display: flex;
   align-items: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -9,13 +9,13 @@
 }
 
 form {
-  width: 70vw;
+  width: 60vw;
   height: 2rem;
   display: flex;
 }
 
 .input {
-  width: 65vw;
+  width: 55vw;
   text-indent: 10px;
   border: 0.1px groove gray;
 }

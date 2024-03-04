@@ -49,7 +49,7 @@ p{
 }
 
 .item {
-  width: 80vw;
+  width: 70vw;
   display: flex;
   flex-direction: column;
     box-shadow:0 5px 15px rgba(0,0,0,0.2);
@@ -60,7 +60,7 @@ p{
   padding:1rem;
 }
 .img{
-  width: 80vw;
+  width: 70vw;
   height: 12rem;
   object-fit:cover;
 }
