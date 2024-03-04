@@ -134,6 +134,7 @@ img{
 
 @media screen and (min-width:992px) {
   margin-left:15rem;
+  margin-top:-10rem;
   .cocktail{
     display: flex;
     flex-direction: row;
