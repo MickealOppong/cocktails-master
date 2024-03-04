@@ -125,7 +125,7 @@ span{
 p{
  color: rgb(73, 81, 81);
  line-height:1.5rem;
-  width:25rem;
+  width:22rem;
 }
 img{
   width: 20rem;
