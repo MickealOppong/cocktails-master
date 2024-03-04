@@ -28,6 +28,12 @@ body {
 
 }
 
+
+.cocktail-container {
+  display: flex;
+  margin-left: 2rem;
+}
+
 .loader {
   width: 10rem;
   height: 10rem;
