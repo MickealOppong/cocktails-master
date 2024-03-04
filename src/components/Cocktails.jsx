@@ -95,6 +95,14 @@ p{
     }
   
 }
+
+@media screen and (min-width:992px) {
+
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    column-gap:2rem;
+  
+}
 `
 
 export default Cocktails;
